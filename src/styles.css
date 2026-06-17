@@ -6,6 +6,8 @@ body {
   font-family: sans-serif;
   margin: 20px;
   padding: 0;
+  background-color: rgb(33, 57, 55);
+  color:#8ce0e0;
 }
 
 h1 {
@@ -56,9 +58,13 @@ body {
   padding: 0;
 }
 
+button {
+  color: rgba(70, 175, 194, 0.845);
+}
+
 .square {
-  background: #fff;
-  border: 1px solid #999;
+  background: #3b3a3a84;
+  border: 1px solid #9a8e8e;
   float: left;
   font-size: 24px;
   font-weight: bold;
