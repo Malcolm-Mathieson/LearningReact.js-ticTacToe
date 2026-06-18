@@ -58,11 +58,8 @@ body {
   padding: 0;
 }
 
-button {
-  color: rgba(70, 175, 194, 0.845);
-}
-
 .square {
+  color: rgba(70, 175, 194, 0.845);
   background: #3b3a3a84;
   border: 1px solid #9a8e8e;
   float: left;
