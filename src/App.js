@@ -3,6 +3,7 @@ import {useState} from 'react';
 export default function Board() {
 
   const [xIsNext, setXIsNext] = useState(true);
+  const [values, setValues] = useState(Array(9).fill(null));
 
   function handleClick(i) {
     if (values[i] || checkWin(values)) {
