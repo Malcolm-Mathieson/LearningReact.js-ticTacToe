@@ -13,12 +13,8 @@ export default function Game() {
   function jumpTo(nextMove) {
     nextMove++;
     setHistory(history.slice(0, nextMove));
-    if (nextMove % 2 === 0) {
-      setXIsNext(false);
-    }
-    else {
-      setXIsNext(true);
-    }
+    setXIsNext(!(nextMove % 2 === 0));
+    if (nextMove % 2 === 0);
   }
 
   const moves = history.map((squares, move) => {
